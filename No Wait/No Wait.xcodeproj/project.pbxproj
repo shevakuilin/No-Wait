@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		810E466C76805B3BA25817A0 /* Pods_No_Wait.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B716360A9C9646B3CA5DCD /* Pods_No_Wait.framework */; };
+		9F2F9B221FFDFC5E00B66985 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2F9B211FFDFC5E00B66985 /* R.generated.swift */; };
 		9FCBE39C1FFDCF7300BA58B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCBE39B1FFDCF7300BA58B3 /* AppDelegate.swift */; };
-		9FCBE39E1FFDCF7300BA58B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCBE39D1FFDCF7300BA58B3 /* ViewController.swift */; };
 		9FCBE3A11FFDCF7400BA58B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FCBE39F1FFDCF7400BA58B3 /* Main.storyboard */; };
 		9FCBE3A31FFDCF7400BA58B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FCBE3A21FFDCF7400BA58B3 /* Assets.xcassets */; };
 		9FCBE3A61FFDCF7400BA58B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FCBE3A41FFDCF7400BA58B3 /* LaunchScreen.storyboard */; };
@@ -37,9 +37,9 @@
 /* Begin PBXFileReference section */
 		02C92D6479872BAD8DA9D17A /* Pods-No Wait.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-No Wait.release.xcconfig"; path = "Pods/Target Support Files/Pods-No Wait/Pods-No Wait.release.xcconfig"; sourceTree = "<group>"; };
 		49B716360A9C9646B3CA5DCD /* Pods_No_Wait.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_No_Wait.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F2F9B211FFDFC5E00B66985 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		9FCBE3981FFDCF7300BA58B3 /* No Wait.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "No Wait.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FCBE39B1FFDCF7300BA58B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9FCBE39D1FFDCF7300BA58B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9FCBE3A01FFDCF7400BA58B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9FCBE3A21FFDCF7400BA58B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FCBE3A51FFDCF7400BA58B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -96,6 +96,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9F2F9B201FFDFC4100B66985 /* Script */ = {
+			isa = PBXGroup;
+			children = (
+				9F2F9B211FFDFC5E00B66985 /* R.generated.swift */,
+			);
+			path = Script;
+			sourceTree = "<group>";
+		};
 		9FCBE38F1FFDCF7300BA58B3 = {
 			isa = PBXGroup;
 			children = (
@@ -121,8 +129,8 @@
 		9FCBE39A1FFDCF7300BA58B3 /* No Wait */ = {
 			isa = PBXGroup;
 			children = (
+				9F2F9B201FFDFC4100B66985 /* Script */,
 				9FCBE39B1FFDCF7300BA58B3 /* AppDelegate.swift */,
-				9FCBE39D1FFDCF7300BA58B3 /* ViewController.swift */,
 				9FCBE39F1FFDCF7400BA58B3 /* Main.storyboard */,
 				9FCBE3A21FFDCF7400BA58B3 /* Assets.xcassets */,
 				9FCBE3A41FFDCF7400BA58B3 /* LaunchScreen.storyboard */,
@@ -162,6 +170,7 @@
 				9FCBE3961FFDCF7300BA58B3 /* Resources */,
 				49AA68C9826887B6365407FA /* [CP] Embed Pods Frameworks */,
 				D657BAD50883A087FFF43DB4 /* [CP] Copy Pods Resources */,
+				9F2F9B1F1FFDFC1B00B66985 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -214,6 +223,7 @@
 		9FCBE3901FFDCF7300BA58B3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = NW;
 				LastSwiftUpdateCheck = 0910;
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = ShevaKuilin;
@@ -304,6 +314,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-No Wait/Pods-No Wait-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9F2F9B1F1FFDFC1B00B66985 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT\"";
+		};
 		D657BAD50883A087FFF43DB4 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -344,8 +367,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FCBE39E1FFDCF7300BA58B3 /* ViewController.swift in Sources */,
 				9FCBE39C1FFDCF7300BA58B3 /* AppDelegate.swift in Sources */,
+				9F2F9B221FFDFC5E00B66985 /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
