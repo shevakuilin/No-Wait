@@ -1,0 +1,6 @@
+framework module Pods_No_Wait {
+  umbrella header "Pods-No Wait-umbrella.h"
+
+  export *
+  module * { export * }
+}
