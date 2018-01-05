@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		810E466C76805B3BA25817A0 /* Pods_No_Wait.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B716360A9C9646B3CA5DCD /* Pods_No_Wait.framework */; };
-		9F2F9B221FFDFC5E00B66985 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2F9B211FFDFC5E00B66985 /* R.generated.swift */; };
 		9FCBE39C1FFDCF7300BA58B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCBE39B1FFDCF7300BA58B3 /* AppDelegate.swift */; };
-		9FCBE3A11FFDCF7400BA58B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FCBE39F1FFDCF7400BA58B3 /* Main.storyboard */; };
 		9FCBE3A31FFDCF7400BA58B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FCBE3A21FFDCF7400BA58B3 /* Assets.xcassets */; };
 		9FCBE3A61FFDCF7400BA58B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FCBE3A41FFDCF7400BA58B3 /* LaunchScreen.storyboard */; };
 		9FCBE3B11FFDCF7500BA58B3 /* No_WaitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCBE3B01FFDCF7500BA58B3 /* No_WaitTests.swift */; };
 		9FCBE3BC1FFDCF7500BA58B3 /* No_WaitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCBE3BB1FFDCF7500BA58B3 /* No_WaitUITests.swift */; };
+		9FD6AC4C1FFF49F7006634CB /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD6AC4B1FFF49F7006634CB /* R.generated.swift */; };
+		9FD6AC541FFF56C8006634CB /* NWGlobalFormattingTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD6AC531FFF56C8006634CB /* NWGlobalFormattingTool.swift */; };
+		9FD6AC561FFF5916006634CB /* NWBusStopListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD6AC551FFF5916006634CB /* NWBusStopListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +38,8 @@
 /* Begin PBXFileReference section */
 		02C92D6479872BAD8DA9D17A /* Pods-No Wait.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-No Wait.release.xcconfig"; path = "Pods/Target Support Files/Pods-No Wait/Pods-No Wait.release.xcconfig"; sourceTree = "<group>"; };
 		49B716360A9C9646B3CA5DCD /* Pods_No_Wait.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_No_Wait.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F2F9B211FFDFC5E00B66985 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		9FCBE3981FFDCF7300BA58B3 /* No Wait.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "No Wait.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FCBE39B1FFDCF7300BA58B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9FCBE3A01FFDCF7400BA58B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9FCBE3A21FFDCF7400BA58B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FCBE3A51FFDCF7400BA58B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FCBE3A71FFDCF7400BA58B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +49,9 @@
 		9FCBE3B71FFDCF7500BA58B3 /* No WaitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "No WaitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FCBE3BB1FFDCF7500BA58B3 /* No_WaitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = No_WaitUITests.swift; sourceTree = "<group>"; };
 		9FCBE3BD1FFDCF7500BA58B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FD6AC4B1FFF49F7006634CB /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		9FD6AC531FFF56C8006634CB /* NWGlobalFormattingTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NWGlobalFormattingTool.swift; sourceTree = "<group>"; };
+		9FD6AC551FFF5916006634CB /* NWBusStopListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NWBusStopListViewController.swift; sourceTree = "<group>"; };
 		FC97D7A0646E7694D6776B35 /* Pods-No Wait.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-No Wait.debug.xcconfig"; path = "Pods/Target Support Files/Pods-No Wait/Pods-No Wait.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,9 +101,55 @@
 		9F2F9B201FFDFC4100B66985 /* Script */ = {
 			isa = PBXGroup;
 			children = (
-				9F2F9B211FFDFC5E00B66985 /* R.generated.swift */,
+				9FD6AC4B1FFF49F7006634CB /* R.generated.swift */,
 			);
 			path = Script;
+			sourceTree = "<group>";
+		};
+		9FC107331FFF2E6C00943BE2 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9FC107341FFF2E7900943BE2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9FC107351FFF2E9E00943BE2 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				9FCBE39B1FFDCF7300BA58B3 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		9FC107361FFF2EB800943BE2 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				9FCBE3A71FFDCF7400BA58B3 /* Info.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		9FC107371FFF2EE400943BE2 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9FCBE3A21FFDCF7400BA58B3 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		9FC107381FFF2EFE00943BE2 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				9FCBE3A41FFDCF7400BA58B3 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 		9FCBE38F1FFDCF7300BA58B3 = {
@@ -129,12 +177,17 @@
 		9FCBE39A1FFDCF7300BA58B3 /* No Wait */ = {
 			isa = PBXGroup;
 			children = (
+				9FC107351FFF2E9E00943BE2 /* Application */,
+				9FC107361FFF2EB800943BE2 /* Config */,
 				9F2F9B201FFDFC4100B66985 /* Script */,
-				9FCBE39B1FFDCF7300BA58B3 /* AppDelegate.swift */,
-				9FCBE39F1FFDCF7400BA58B3 /* Main.storyboard */,
-				9FCBE3A21FFDCF7400BA58B3 /* Assets.xcassets */,
-				9FCBE3A41FFDCF7400BA58B3 /* LaunchScreen.storyboard */,
-				9FCBE3A71FFDCF7400BA58B3 /* Info.plist */,
+				9FD6AC4D1FFF4A71006634CB /* Protocol */,
+				9FD6AC4E1FFF4A91006634CB /* Store */,
+				9FC107341FFF2E7900943BE2 /* Model */,
+				9FC107331FFF2E6C00943BE2 /* Network */,
+				9FD6AC4F1FFF4A97006634CB /* UI */,
+				9FD6AC521FFF567C006634CB /* Util */,
+				9FC107371FFF2EE400943BE2 /* Resource */,
+				9FC107381FFF2EFE00943BE2 /* Storyboard */,
 			);
 			path = "No Wait";
 			sourceTree = "<group>";
@@ -155,6 +208,36 @@
 				9FCBE3BD1FFDCF7500BA58B3 /* Info.plist */,
 			);
 			path = "No WaitUITests";
+			sourceTree = "<group>";
+		};
+		9FD6AC4D1FFF4A71006634CB /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		9FD6AC4E1FFF4A91006634CB /* Store */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		9FD6AC4F1FFF4A97006634CB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9FD6AC551FFF5916006634CB /* NWBusStopListViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		9FD6AC521FFF567C006634CB /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				9FD6AC531FFF56C8006634CB /* NWGlobalFormattingTool.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,7 +354,6 @@
 			files = (
 				9FCBE3A61FFDCF7400BA58B3 /* LaunchScreen.storyboard in Resources */,
 				9FCBE3A31FFDCF7400BA58B3 /* Assets.xcassets in Resources */,
-				9FCBE3A11FFDCF7400BA58B3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,8 +449,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FD6AC561FFF5916006634CB /* NWBusStopListViewController.swift in Sources */,
 				9FCBE39C1FFDCF7300BA58B3 /* AppDelegate.swift in Sources */,
-				9F2F9B221FFDFC5E00B66985 /* R.generated.swift in Sources */,
+				9FD6AC4C1FFF49F7006634CB /* R.generated.swift in Sources */,
+				9FD6AC541FFF56C8006634CB /* NWGlobalFormattingTool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,14 +488,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9FCBE39F1FFDCF7400BA58B3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9FCBE3A01FFDCF7400BA58B3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9FCBE3A41FFDCF7400BA58B3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -536,7 +612,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "No Wait/Info.plist";
+				INFOPLIST_FILE = "No Wait/Config/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "shevakuilin.No-Wait";
@@ -552,7 +628,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "No Wait/Info.plist";
+				INFOPLIST_FILE = "No Wait/Config/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "shevakuilin.No-Wait";

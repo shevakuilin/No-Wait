@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -138,8 +138,8 @@
 		5DA98036249701F5405ADF2E9E023C9D /* UITableView+ReuseIdentifierProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+ReuseIdentifierProtocol.swift"; path = "Library/UIKit/UITableView+ReuseIdentifierProtocol.swift"; sourceTree = "<group>"; };
 		6208E70E919FD5E209F45C0391806EAC /* Pods-No Wait-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-No Wait-acknowledgements.plist"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		66A650CB2BA55B5387E495221FA528D0 /* TPKeyboardAvoiding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TPKeyboardAvoiding.framework; path = TPKeyboardAvoiding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		675F793E157CCADF13D92415333DC0E0 /* Pods_No_Wait.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_No_Wait.framework; path = "Pods-No Wait.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66A650CB2BA55B5387E495221FA528D0 /* TPKeyboardAvoiding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPKeyboardAvoiding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		675F793E157CCADF13D92415333DC0E0 /* Pods_No_Wait.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_No_Wait.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DBB5156A74876E79E36FE7E99B8D859 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
 		714DBE41CEC0F6E7AA42B778AB71B857 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+TPKeyboardAvoidingAdditions.h"; path = "TPKeyboardAvoiding/UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
 		72A9BB8A384E766A4AD2A3446533D6DA /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
@@ -148,28 +148,28 @@
 		79897275298A9C15A735D8E8830EDE32 /* TPKeyboardAvoiding-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPKeyboardAvoiding-dummy.m"; sourceTree = "<group>"; };
 		82807F925338A66387CFF16510AA18D6 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
 		860B593C00550B322CA34293F9C367FF /* StoryboardResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryboardResource.swift; path = Library/Core/StoryboardResource.swift; sourceTree = "<group>"; };
-		87DDB5EB8B6B269A4A007A67857224D1 /* TPKeyboardAvoiding.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TPKeyboardAvoiding.modulemap; sourceTree = "<group>"; };
+		87DDB5EB8B6B269A4A007A67857224D1 /* TPKeyboardAvoiding.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TPKeyboardAvoiding.modulemap; sourceTree = "<group>"; };
 		8A5A1CA02F0D4375F1839D5D8011C04D /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		8B072BE0D4CD1FB629E0EAEEF69E8E82 /* TPKeyboardAvoiding-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPKeyboardAvoiding-prefix.pch"; sourceTree = "<group>"; };
 		8C44BF43367BA78635C5A4F2763D33DE /* ColorPaletteItemResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPaletteItemResource.swift; path = Library/Core/ColorPaletteItemResource.swift; sourceTree = "<group>"; };
 		8D0C3EC37BE7A92DC732A3411192298C /* ColorResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorResource.swift; path = Library/Core/ColorResource.swift; sourceTree = "<group>"; };
-		8D4D0E858EBE2B829C51A27B522CB29A /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		8D4D0E858EBE2B829C51A27B522CB29A /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		9283BE009C03C571D053944B66FD28BF /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		958113F909900767BB2ABDF0291E0A53 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		9BD521473376A3734A71B92293313C03 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 		9F34F17ABB7F0868F5EA197CA493AF1D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A834BD435488E8A7578AE52AFB7697E1 /* StoryboardResourceWithInitialController+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StoryboardResourceWithInitialController+UIKit.swift"; path = "Library/UIKit/StoryboardResourceWithInitialController+UIKit.swift"; sourceTree = "<group>"; };
 		A8ED3669E6C25F6CB2A524B0C5B1C0EC /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		B122B8B7AADF5258F3E69281888E1C50 /* R.swift.Library.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = R.swift.Library.modulemap; sourceTree = "<group>"; };
-		B282363BACBCC5C315FE0426FD8EF79B /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B122B8B7AADF5258F3E69281888E1C50 /* R.swift.Library.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = R.swift.Library.modulemap; sourceTree = "<group>"; };
+		B282363BACBCC5C315FE0426FD8EF79B /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3B2CC2460476E7A655821FD49D4705C /* FileResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileResource.swift; path = Library/Core/FileResource.swift; sourceTree = "<group>"; };
 		B5C51EF71C1829F57B7010447D0AA55D /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		B5CEC27627C43F8ECC64BBE49413A774 /* ReuseIdentifierProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReuseIdentifierProtocol.swift; path = Library/Core/ReuseIdentifierProtocol.swift; sourceTree = "<group>"; };
-		B7FC799F0C541FEB21C6C247CB417DF6 /* Pods-No Wait.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-No Wait.modulemap"; sourceTree = "<group>"; };
+		B7FC799F0C541FEB21C6C247CB417DF6 /* Pods-No Wait.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-No Wait.modulemap"; sourceTree = "<group>"; };
 		B99CEB3A635B6DC1A2CFB5EB2A60B906 /* NibResource+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NibResource+UIKit.swift"; path = "Library/UIKit/NibResource+UIKit.swift"; sourceTree = "<group>"; };
 		C340B494A7D1EBD9D7BDB5F5A95BEAE0 /* NibResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibResource.swift; path = Library/Core/NibResource.swift; sourceTree = "<group>"; };
-		C5C30205E96ED26EB517853D95C2AD68 /* Rswift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Rswift.framework; path = R.swift.Library.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5C30205E96ED26EB517853D95C2AD68 /* Rswift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Rswift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8B700CE7EE130407559E1C2CE833B9E /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		CA1BE548BFDFA23DA4CBEB50C99E913A /* Identifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Identifier.swift; path = Library/Core/Identifier.swift; sourceTree = "<group>"; };
 		CB459F55C854AA6D97A471056282EA67 /* R.swift.Library.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = R.swift.Library.xcconfig; sourceTree = "<group>"; };
@@ -248,7 +248,6 @@
 				9BD521473376A3734A71B92293313C03 /* Validation.swift */,
 				DD69076553C41F5B5978D6561AE88AC7 /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -256,7 +255,6 @@
 			isa = PBXGroup;
 			children = (
 			);
-			name = R.swift;
 			path = R.swift;
 			sourceTree = "<group>";
 		};
@@ -298,7 +296,6 @@
 				567F2655C11D248D24C97B772D98F523 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
 				624A368C1688B43DBE3F09942F9F3DAC /* Support Files */,
 			);
-			name = TPKeyboardAvoiding;
 			path = TPKeyboardAvoiding;
 			sourceTree = "<group>";
 		};
@@ -396,7 +393,6 @@
 				23797A2EB4645F7017AF92B8D7F1C033 /* Validatable.swift */,
 				AF1CD01CB01A2990FD4BCDD592541CE7 /* Support Files */,
 			);
-			name = R.swift.Library;
 			path = R.swift.Library;
 			sourceTree = "<group>";
 		};
@@ -552,7 +548,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0910;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -795,7 +791,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -803,15 +801,21 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
@@ -917,7 +921,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -925,14 +931,20 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
@@ -946,6 +958,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
