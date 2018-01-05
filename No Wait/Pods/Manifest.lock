@@ -1,21 +1,48 @@
 PODS:
   - Alamofire (4.5.1)
+  - PINCache (3.0.1-beta.5):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.5)
+    - PINCache/Core (= 3.0.1-beta.5)
+  - PINCache/Arc-exception-safe (3.0.1-beta.5):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.5):
+    - PINOperation (= 1.0.3)
+  - PINOperation (1.0.3)
+  - PINRemoteImage/Core (3.0.0-beta.12):
+    - PINOperation
+  - PINRemoteImage/iOS (3.0.0-beta.12):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.12):
+    - PINCache (= 3.0.1-beta.5)
+    - PINRemoteImage/Core
   - R.swift (4.0.0):
     - R.swift.Library (~> 4.0.0)
   - R.swift.Library (4.0.0)
+  - Texture (2.5.1):
+    - Texture/PINRemoteImage (= 2.5.1)
+  - Texture/Core (2.5.1)
+  - Texture/PINRemoteImage (2.5.1):
+    - PINRemoteImage/iOS (= 3.0.0-beta.12)
+    - PINRemoteImage/PINCache
+    - Texture/Core
   - TPKeyboardAvoiding (1.3.1)
 
 DEPENDENCIES:
   - Alamofire (~> 4.5.1)
   - R.swift (~> 4.0.0)
+  - Texture (~> 2.5.1)
   - TPKeyboardAvoiding (~> 1.3.1)
 
 SPEC CHECKSUMS:
   Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  PINCache: 98e7b1ef782824ad231ade51987c218b758c30d8
+  PINOperation: ac23db44796d4a564ecf9b5ea7163510f579b71d
+  PINRemoteImage: 0cefe720c2612960bd360710efbd6c73a1991d5f
   R.swift: d6a5ec2f55a8441dc0ed9f1f8b37d7d11ae85c66
   R.swift.Library: c3af34921024333546e23b70e70d0b4e0cffca75
+  Texture: c3f06e344aa091667b7a56002e525cde674d021a
   TPKeyboardAvoiding: 0d6af20e95e2850f4c621841225b59ec7d8dd852
 
-PODFILE CHECKSUM: 7e4f0021e3a84b364ecf2e5d0f82d967086bf600
+PODFILE CHECKSUM: 9465b4d1ff61542b36aafad7342aec45b3f81b46
 
 COCOAPODS: 1.3.1

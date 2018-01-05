@@ -85,6 +85,9 @@ public func kFontBold(_ x: CGFloat) -> UIFont {
 
 
 
+/** UIScreen属性快速读取
+ *
+ */
 struct UIScreenAttribute {
     static let bounds = UIScreen.main.bounds
     static let width = UIScreen.main.bounds.size.width
