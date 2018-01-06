@@ -15,11 +15,25 @@ let dummy = [
     "阜通西路",
     "花溪地西里二区",
     "三元桥",
+    "望京西地铁站",
+    "融科橄榄城",
+    "望京东地铁站",
+    "望京Soho",
+    "阜通西路",
+    "花溪地西里二区",
+    "三元桥",
+    "望京西地铁站",
+    "融科橄榄城",
+    "望京东地铁站",
+    "望京Soho",
+    "阜通西路",
+    "花溪地西里二区",
+    "三元桥",
     "望京西地铁站"
 ]
 
-struct LoadDataStore {
-    static let shared = LoadDataStore()
+struct NWLoadDataStore {
+    static let shared = NWLoadDataStore()
     func getCurrentBusStops(completionHandler: (([String]) -> Void)?) {
         completionHandler?(dummy)
     }
