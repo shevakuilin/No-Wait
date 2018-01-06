@@ -27,6 +27,12 @@ class NWBusStopListViewController: ASViewController<ASDisplayNode> {
         }
         stateDidChanged(state: reloadUIStore.state, previousState: nil, command: nil)
         reloadUIStore.dispatch(.loadBusData)
+        
+        RouteAndStationURLSessionClient.shared.send(RouteAndStationRequest(routeCode: "980")) {
+            if let data = $0 {
+                printLog("\(data)")
+            }
+        }
     }
     
     required init?(coder aDecoder: NSCoder) {

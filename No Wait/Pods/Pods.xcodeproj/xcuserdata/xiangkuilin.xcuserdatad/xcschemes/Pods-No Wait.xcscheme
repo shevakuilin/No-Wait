@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0910"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "11DA501CB49BABAB9C03B697B84AEB69"
+               BlueprintIdentifier = "0013DA146C9BE310ABA12A1BB8ADC8CE"
                BuildableName = "Pods_No_Wait.framework"
                BlueprintName = "Pods-No Wait"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "11DA501CB49BABAB9C03B697B84AEB69"
+            BlueprintIdentifier = "0013DA146C9BE310ABA12A1BB8ADC8CE"
             BuildableName = "Pods_No_Wait.framework"
             BlueprintName = "Pods-No Wait"
             ReferencedContainer = "container:Pods.xcodeproj">
